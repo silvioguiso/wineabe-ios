@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A02CE06238C6701001D1EE1 /* WineryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE05238C6701001D1EE1 /* WineryTableViewCell.swift */; };
+		7A02CE08238C6DF5001D1EE1 /* WineryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE07238C6DF5001D1EE1 /* WineryTableViewController.swift */; };
+		7A02CE0A238C6E7C001D1EE1 /* Winery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE09238C6E7C001D1EE1 /* Winery.swift */; };
+		7A02CE0C238C7C66001D1EE1 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE0B238C7C66001D1EE1 /* Note.swift */; };
+		7A02CE0E238C7D2D001D1EE1 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE0D238C7D2D001D1EE1 /* NoteTableViewCell.swift */; };
+		7A02CE10238C80C4001D1EE1 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A02CE0F238C80C4001D1EE1 /* NoteTableViewController.swift */; };
 		7A26862123875D7300FEC423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26862023875D7300FEC423 /* AppDelegate.swift */; };
 		7A26862323875D7300FEC423 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A26862223875D7300FEC423 /* MainViewController.swift */; };
 		7A26862823875D7400FEC423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A26862723875D7400FEC423 /* Assets.xcassets */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A02CE05238C6701001D1EE1 /* WineryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineryTableViewCell.swift; sourceTree = "<group>"; };
+		7A02CE07238C6DF5001D1EE1 /* WineryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineryTableViewController.swift; sourceTree = "<group>"; };
+		7A02CE09238C6E7C001D1EE1 /* Winery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winery.swift; sourceTree = "<group>"; };
+		7A02CE0B238C7C66001D1EE1 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		7A02CE0D238C7D2D001D1EE1 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		7A02CE0F238C80C4001D1EE1 /* NoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		7A26861D23875D7300FEC423 /* wineabe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wineabe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A26862023875D7300FEC423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7A26862223875D7300FEC423 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -59,10 +71,16 @@
 				7A26862023875D7300FEC423 /* AppDelegate.swift */,
 				7A26862223875D7300FEC423 /* MainViewController.swift */,
 				7A268635238767D500FEC423 /* Main.storyboard */,
+				7A02CE07238C6DF5001D1EE1 /* WineryTableViewController.swift */,
 				7A2686392387702F00FEC423 /* Colors.xcassets */,
 				7A26862723875D7400FEC423 /* Assets.xcassets */,
 				7A26862923875D7400FEC423 /* LaunchScreen.storyboard */,
 				7A26862C23875D7400FEC423 /* Info.plist */,
+				7A02CE05238C6701001D1EE1 /* WineryTableViewCell.swift */,
+				7A02CE09238C6E7C001D1EE1 /* Winery.swift */,
+				7A02CE0B238C7C66001D1EE1 /* Note.swift */,
+				7A02CE0D238C7D2D001D1EE1 /* NoteTableViewCell.swift */,
+				7A02CE0F238C80C4001D1EE1 /* NoteTableViewController.swift */,
 			);
 			path = wineabe;
 			sourceTree = "<group>";
@@ -139,8 +157,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A02CE0A238C6E7C001D1EE1 /* Winery.swift in Sources */,
+				7A02CE06238C6701001D1EE1 /* WineryTableViewCell.swift in Sources */,
 				7A26862323875D7300FEC423 /* MainViewController.swift in Sources */,
+				7A02CE08238C6DF5001D1EE1 /* WineryTableViewController.swift in Sources */,
 				7A26862123875D7300FEC423 /* AppDelegate.swift in Sources */,
+				7A02CE10238C80C4001D1EE1 /* NoteTableViewController.swift in Sources */,
+				7A02CE0E238C7D2D001D1EE1 /* NoteTableViewCell.swift in Sources */,
+				7A02CE0C238C7C66001D1EE1 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
